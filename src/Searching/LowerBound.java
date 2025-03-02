@@ -2,7 +2,7 @@ package Searching;
 
 public class LowerBound {
     public static void main(String[] args) {
-        int[] arr={10,20,30,30,40,50,60,70,};
+        int[] arr = {10,20,30,30,40,50,60,70};
         int n = arr.length, x=71;  //x=target
         int lo=0, hi=n-1, lb=n;
         while(lo<=hi){
@@ -13,6 +13,7 @@ public class LowerBound {
             }
             else lo=mid+1;
         }
+
         System.out.println(lb);
     }
 }

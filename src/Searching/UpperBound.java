@@ -8,7 +8,7 @@ public class UpperBound {
         while(lo<=hi){
             int mid=(lo+hi)/2;
             if(arr[mid]>x){
-                ub = Math.min(ub, mid);
+                ub = mid;
                 hi=mid-1;
             }
             else lo=mid+1;

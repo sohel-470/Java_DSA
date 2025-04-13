@@ -11,7 +11,7 @@ public class removeCharacter {
     }
     public static void main(String[] args) {
         String s = "Sohel Mondal";
-        char ch = 'o';
+        char ch = 'l';
         remove(0,ch,s,"");
     }
 }

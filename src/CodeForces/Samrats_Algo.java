@@ -1,4 +1,4 @@
-package CodeForce;
+package CodeForces;
 
 import java.util.*;
 

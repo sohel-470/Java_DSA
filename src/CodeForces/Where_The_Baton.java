@@ -1,4 +1,4 @@
-package CodeForce;
+package CodeForces;
 import java.util.Scanner;
 
 public class Where_The_Baton {

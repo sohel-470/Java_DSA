@@ -1,4 +1,4 @@
-package HashMaps;
+package HashTable;
 
 import java.util.HashMap;
 
@@ -21,5 +21,7 @@ public class Map_Basic {
         System.out.println(map+" "+map.size());
         System.out.println(map.get("Arpita")); //returns value of the key
         System.out.println(map.get("Sohel")); //returns "null" as element not present
+        map.clear();
+        System.out.println(map);
     }
 }

@@ -1,8 +1,8 @@
-package HashMaps;
+package HashTable;
 
 import java.util.HashSet;
 
-public class Basics {
+public class Set_Basics {
     public static void main(String[] args) {
         HashSet<Integer> set = new HashSet<>();
         //Insert/Remove--> TC = O(1)
@@ -13,6 +13,7 @@ public class Basics {
         set.add(200);
         System.out.println(set); //Print: TC=O(n) coz it traverse whole set to print
         set.remove(200);
+        set.remove(50);//returns no error though element not present.
         System.out.println(set);
         //search/Contains--> true or false: TC = O(1)
         System.out.println(set.contains(11));

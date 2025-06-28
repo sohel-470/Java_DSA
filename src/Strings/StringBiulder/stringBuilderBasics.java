@@ -6,7 +6,7 @@ public class stringBuilderBasics {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("abcd");
         sb.setCharAt(2,'g');
-        System.out.println(sb);
+        System.out.println(sb);//abgd
 
         sb.append(32);  //appending Integers
         System.out.println(sb);

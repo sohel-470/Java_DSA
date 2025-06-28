@@ -1,10 +1,15 @@
 package Arrays.PracticeQuestions;
 
-import java.util.Scanner;
 import java.util.*;
 
 public class faltu {
+    static void print(int[] arr){
+        for(int ele:arr){
+            System.out.print(ele+" ");
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
-        System.out.println(-3%3);
+        for(char c = 'a'; c<='z'; c++) System.out.println(c);
     }
 }

@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.ArrayList;
 
-public class Subsets {
+public class Subsequence {
     static ArrayList<String> arr = new ArrayList<>(); //global ArrayList
     public static void printSubsets(int i, String s, String ans){
         if(i==s.length()){
@@ -14,7 +14,7 @@ public class Subsets {
         printSubsets(i+1,s,ans+ch); //left call--> Take
     }
     public static void main(String[] args) {
-        String s = "abcd";
+        String s = "soh";
         arr = new ArrayList<>(); //Reset--> Always do when something's declared globally
         printSubsets(0,s,"");
         System.out.println(arr);

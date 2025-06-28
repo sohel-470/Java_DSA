@@ -20,10 +20,12 @@ public class ArrayList_2D {
         System.out.println(l.get(1).get(1));
         //printing l (linearly)
         System.out.println(l);
+        System.out.println();
         //printing l grid-wise
         for(int i=0; i<l.size(); i++){
             System.out.println(l.get(i));
         }
+        System.out.println();
         //printing l grid-wise using for-loop
         for(int i=0; i<l.size(); i++){
             for(int j=0; j<l.get(i).size(); j++){
@@ -31,5 +33,9 @@ public class ArrayList_2D {
             }
             System.out.println();
         }
+        l.get(1).add(1000);
+
+        l.get(4).add(9999);
+        System.out.println(l);
     }
 }

@@ -22,7 +22,7 @@ public class stringBuilderBasics {
         StringBuilder s = new StringBuilder("abcdefg");
         s.deleteCharAt(3);  //abcefg
         System.out.println(s);
-        s.delete(1,4);  //delete index (1,3) --> afg
+        s.delete(1,4);  //delete index (1,3) --> bce
         System.out.println(s);
         s.insert(1,'z');  //azfg
         System.out.println(s);
